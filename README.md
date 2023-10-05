@@ -6,6 +6,7 @@ v17.8.0 Preview 2.0
 
 
 The solution was set up with these settings:
+
 ![setup1](https://github.com/anaximandus/blazortest/assets/23137922/9eefca41-e8d6-451c-88a2-74d23cf7a127)
 
 ![setup2](https://github.com/anaximandus/blazortest/assets/23137922/327053e5-977b-4978-a99c-60ace2e775cb)

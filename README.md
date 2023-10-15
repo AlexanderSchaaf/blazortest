@@ -9,7 +9,7 @@ The solution was set up with these settings:
 
 ![setup1](https://github.com/anaximandus/blazortest/assets/23137922/9eefca41-e8d6-451c-88a2-74d23cf7a127)
 
-![setup2](https://github.com/anaximandus/blazortest/assets/23137922/327053e5-977b-4978-a99c-60ace2e775cb)
+![grafik](https://github.com/anaximandus/blazortest/assets/23137922/e83c6dd4-2e03-4d3e-bb0d-abb7ecaed2e0)
 
 ![setup3](https://github.com/anaximandus/blazortest/assets/23137922/ae68009e-688a-4615-a857-1d764f9d0b1e)
 

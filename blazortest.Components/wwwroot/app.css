@@ -1,13 +1,12 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1:focus {
-    outline: none;
-}
-
 a, .btn-link {
-    color: #0071c1;
+    color: #006bb7;
 }
 
 .btn-primary {
@@ -24,16 +23,20 @@ a, .btn-link {
     padding-top: 1.1rem;
 }
 
+h1:focus {
+    outline: none;
+}
+
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
 
 .invalid {
-    outline: 1px solid red;
+    outline: 1px solid #e52650;
 }
 
 .validation-message {
-    color: red;
+    color: #e52650;
 }
 
 .blazor-error-boundary {
@@ -42,6 +45,6 @@ a, .btn-link {
     color: white;
 }
 
-    .blazor-error-boundary::after {
-        content: "An error has occurred."
-    }
+.blazor-error-boundary::after {
+    content: "An error has occurred, dude."
+}

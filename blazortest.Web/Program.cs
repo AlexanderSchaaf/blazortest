@@ -1,4 +1,5 @@
-
+using blazortest.Components;
+using blazortest.Components.Data;
 
 namespace blazortest.Web
 {
@@ -10,7 +11,9 @@ namespace blazortest.Web
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
-                .AddServerComponents();
+                .AddInteractiveServerComponents();
+
+            builder.Services.AddSingleton<WeatherForecastService>();
 
             var app = builder.Build();
 
@@ -25,9 +28,10 @@ namespace blazortest.Web
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+            app.UseAntiforgery();
 
-            app.MapRazorComponents<Components.Web>()
-              .AddServerRenderMode();
+            app.MapRazorComponents<WebEntryPoint>()
+                .AddInteractiveServerRenderMode();
 
             app.Run();
         }

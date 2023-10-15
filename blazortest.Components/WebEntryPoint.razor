@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blazortest.App</title>
+    <base href="/" />
+    <link rel="stylesheet" href="_content/blazortest.Components/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="_content/blazortest.Components/app.css" />
+    <link rel="stylesheet" href="blazortest.Web.styles.css" />
+    <link rel="icon" type="image/png" href="_content/blazortest.Components/favicon.png" />
+    <HeadOutlet @rendermode="@RenderMode.InteractiveServer" />
+</head>
+
+<body>
+    <Routes @rendermode="@RenderMode.InteractiveServer" />
+    <script src="_framework/blazor.web.js"></script>
+
+</body>
+
+</html>

@@ -10,4 +10,8 @@
     <ProjectReference Include="..\blazortest.Components\blazortest.Components.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

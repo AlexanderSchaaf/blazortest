@@ -1,8 +1,8 @@
 # blazortest
-Testing .NET 8 Preview shared Components between "Blazor Web App" and "MAUI Blazor Hybrid App"
+Testing .NET 8 RC2 shared Components between "Blazor Web App" and "MAUI Blazor Hybrid App"
 
 Visual Studio Professional 2022 Preview
-v17.8.0 Preview 2.0
+v17.8.0 Preview 3.0
 
 
 The solution was set up with these settings:
